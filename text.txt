@@ -1,0 +1,660 @@
+    <section class="games-section">
+        <h1 class="text-center">Top Games Available</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                            <img src="images/battlefield-2042-1.jpg" alt="game1">
+                        </div>
+                        <div class="game-price">
+                            <h3>₱ 1499</h3>
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Battlefield 2042</h3>
+                        </div>
+                    <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <?php 
+                        if (isset($_SESSION['email'])){
+                        ?>
+                        <a href="#" class="add-to-cart cart1">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                        <?php }?>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                         <div class="game-image">
+                            <img src="images/call-of-duty-vanguard-01.jpg" alt="game2">
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1799</h3>
+                        </div>
+                        <div class="game-name">
+                        <h3 class="text-center">Call of Duty: Vanguard</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="#" class="add-to-cart cart2">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                            <img src="images/bioshock.png" alt="game3">
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1475</h3>
+                        </div>
+                        <div class="game-name">
+                        <h3 class="text-center">Bioshock</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="#" class="add-to-cart cart3">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/dyinglight.png" alt="game4">
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1599</h3>
+                        </div>
+                        <div class="game-name">
+                        <h3 class="text-center">Dying Light</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="#" class="add-to-cart cart4">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/dyinglight2.png" alt="game5">
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 2800</h3>
+                        </div>
+                        <div class="game-name">
+                        <h3 class="text-center">Dying Light 2: Stay Human</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart5">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                         <div class="game-image">
+                         <img src="images/farcry4.png" alt="game6">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1590</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Far Cry 4</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart6">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/farcry6.png" alt="game7">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 2000</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Far Cry 6</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart7">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/ff8.png" alt="game8">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 2477</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Final Fantasy IIV: Remake Intergrade</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart8">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/godofwar.png" alt="game9">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 2490</h3>
+
+                        </div>
+                        <div class="game-name">
+                        <h3 class="text-center">God of War</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart9">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                         <div class="game-image">
+                         <img src="images/gtav.png" alt="game10">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 999</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Grand Theft Auto V</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart10">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/hotwheels.png" alt="game11">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1199</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Hot Wheels: Unleashed</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart11">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/littlenightmares.png" alt="game12">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 999</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Little Nightmares</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart12">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/prey.png" alt="game13">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1500</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Prey</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart13">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                         <div class="game-image">
+                         <img src="images/borderlands2.png" alt="game14">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1650</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Borderlands 2</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart14">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/brothers.png" alt="game14">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 500</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Brothers: A Tale of Two Sons</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart15">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/control.png" alt="game15">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1000</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Control</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart16">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/daemon.png" alt="game16">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 699</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Daemon X Machina</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart17">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                         <div class="game-image">
+                         <img src="images/daysgone.png" alt="game18">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 2000</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Days Gone</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart18">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/escapist2.png" alt="game18">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 769</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Escapist 2</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart19">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/forzahorizon5.png" alt="game19">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 2599</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Forza Horizon 5</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart20">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/hitman3.png" alt="game20">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 2269</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Hitman 3: Death Awaits</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart21">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                         <div class="game-image">
+                         <img src="images/littlenightmares2.png" alt="game21">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1100</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Little Nightmares 2</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart22">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/overcooked2.png" alt="game22">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 470</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Overcooked 2</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart23">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="games-card">
+                        <div class="game-image">
+                        <img src="images/rage2.png" alt="game23">
+
+                        </div>
+                        <div class="game-price">
+                        <h3>₱ 1369</h3>
+
+                        </div>
+                        <div class="game-name">
+                            <h3 class="text-center">Rage 2</h3>
+                        </div>
+                        <div class="games-card-overlay">
+                        <a href="buynow.php">
+                        <div class="buynow-card">
+                            <p class="text-center">Buy Now</p>
+                        </div>
+                        </a>
+                        <a href="addtocart.php" class="add-to-cart cart24">
+                        <div class="addtocart-card">
+                            <p class="text-center">Add to Cart</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
